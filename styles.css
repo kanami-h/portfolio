@@ -138,6 +138,7 @@ button:hover {
     padding: 80px;
     border-radius: 10px;
     justify-content: space-between;
+    background: #fff;
 }
 
 .l-d {
@@ -150,6 +151,10 @@ button:hover {
 
 .r-d {
     width: 60%;
+}
+
+.middle-right {
+    position: relative;
 }
 
 .middle-right img{
@@ -166,6 +171,7 @@ button:hover {
 }
 .title {
     text-align: center;
+    margin: 20px 0;
 }
 
 .square-items {
@@ -218,4 +224,41 @@ button:hover {
 .hover-mask h3{
     font-size: 22px;
     margin-bottom: 1.5rem;
+}
+
+#contact {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+.email {
+    font-size: 30px;
+}
+
+.sns a img{
+    width: 50px;
+    margin: 10px;
+}
+
+.bottom-right {
+    position: relative;
+}
+.bottom-right img{
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+    width: 50%;
+    right: 0;
+}
+
+.bottom-left {
+    position: relative;
+}
+
+.bottom-left img {
+    position: absolute;
+    z-index: -1;
+    width: 13%;
+    bottom: 10%;
 }
