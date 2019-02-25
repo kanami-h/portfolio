@@ -163,6 +163,7 @@ nav {
 
 .r-d {
     width: 60%;
+    max-height: 600px;
 }
 
 .middle-right {
