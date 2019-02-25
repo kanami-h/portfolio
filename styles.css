@@ -343,6 +343,7 @@ nav {
 
     .l-d, .r-d {
         width: 100%;
+        max-height: 600px;
     }
 
     .l-d img {
@@ -716,14 +717,14 @@ nav {
         width: 35%;
     }
 }
-@media (min-width: 320px) {
-    
-}
-@media (min-width: 320px) {
-    
-}
-@media (min-width: 320px) {
-    
+@media (min-width: 1280px) {
+    #about {
+        flex-direction: row;
+    }
+
+    .l-d img {
+        width: 85%;
+    }
 }
 @media (min-width: 320px) {
     
