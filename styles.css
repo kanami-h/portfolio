@@ -124,18 +124,21 @@ nav {
 
 .subtitle p {
     color: #9F9F9F;
-    margin-bottom: 0 !important;
+    margin-bottom: 0;
 }
 
-button {
-    margin: 20px 0 !important; 
-    padding: 10px 40px;
+.subtitle {
+    margin-bottom: 30px;
+}
+
+.link-button {
+    padding: 20px 40px;
     border-radius: 50px !important;
     border-color: #FABB5A;
     background: #FABB5A;
 }
 
-button:hover {
+.link-button:hover {
     opacity: 0.8;
 }
 
@@ -306,6 +309,7 @@ button:hover {
 
     .top-view {
         flex-direction: column;
+        top: 50px;
     }
     .intro {
         padding: 10px;
@@ -318,6 +322,10 @@ button:hover {
 
     .top-title h1 {
         font-size: 2rem !important;
+    }
+
+    .subtitle p {
+        color: #f8f9fa;
     }
 
     .pic-girl, .left-bottom,
@@ -348,6 +356,7 @@ button:hover {
     #works {
         position: relative;
         top: 140px;
+        padding: 0 20px;
     }
 
     .sq-item {
@@ -378,32 +387,92 @@ button:hover {
     }
 
 }
-@media (min-width: 340px) {
-    
-}
-@media (min-width: 414px) {
-    
-}
+
 @media (min-width: 500px) {
+    .intro {
+        padding: 25px;
+    }
+    .pic-girl {
+        display: block;
+        width: 100%;
+    }
+    #about {
+        top: 100px;
+    }
     
 }
 @media (min-width: 700px) {
-    
+    .pic-girl img {
+        width: 70%;
+        position: relative;
+        bottom: 100px;
+        left: 200px;
+    }
+
+    .l-d img {
+        width: 50%;
+    }
+    .sq-item {
+        width: 45%;
+        height: 45%;
+    }
+
+    .bottom-right img {
+        top: auto;
+    }
 }
 @media (min-width: 800px) {
+    .subtitle p {
+        color: #9F9F9F !important;
+    }
+
+    .top-view {
+        flex-direction: row;
+    }
+
+    .l-d img {
+        width: 40%;
+    }
+
+    .pic-girl img {
+        width: 100%;
+        bottom: 0;
+        left: 0;
+    }
+}
+@media (min-width: 1000px) {   
+    .m-nav, .m-nav-bottom {
+        display: none;
+    }
+
+    .navbar {
+        display: flex !important;
+    } 
+    
+    .top-view {
+        top: 150px;
+    }
+
+    #about {
+        top: 200px;
+    }
+
+    #contact > .email {
+        font-size: 30px;
+    }
+
+    #contact {
+        padding-bottom: 20px;
+        top: 0;
+    }
     
 }
-@media (min-width: 1000px) {
+@media (min-width: 1440px) {
     nav {
         height: 60px;
         background-color: #fff;
     }
-    
-    .m-nav, .m-nav-bottom {
-        display: none;
-    }
-    
-    
+
     
     .brand {
         padding: 10px 20px;
@@ -441,7 +510,7 @@ button:hover {
     
     .hero {
         position: relative;
-        top: 60px;
+        top: 0;
     }
     
     .right-top {
@@ -453,6 +522,10 @@ button:hover {
         position: absolute;
         right: 0;
         top: 0;
+    }
+
+    .left-bottom {
+        display: block;
     }
     
     .left-bottom img {
@@ -496,28 +569,17 @@ button:hover {
         color: #9F9F9F;
         margin-bottom: 0 !important;
     }
-    
-    button {
-        margin: 20px 0 !important; 
-        padding: 10px 40px;
-        border-radius: 50px !important;
-        border-color: #FABB5A;
-        background: #FABB5A;
-    }
-    
-    button:hover {
-        opacity: 0.8;
-    }
-    
     /* About */
     #about {
         display: flex;
+        flex-direction: row;
         width: 80%;
         margin: 0 auto 30px;
         padding: 80px;
         border-radius: 10px;
         justify-content: space-between;
         background: #fff;
+        top: -50px;
     }
     
     .l-d {
@@ -547,6 +609,7 @@ button:hover {
     #works {
         margin: 150px auto;
         padding: 0 50px;
+        top: 0;
     }
     .title {
         text-align: center;
@@ -609,12 +672,7 @@ button:hover {
         text-align: center;
         padding-bottom: 30px;
     }
-    
-    
-    .email {
-        font-size: 30px;
-    }
-    
+
     .sns a img{
         width: 50px;
         margin: 10px;
@@ -633,6 +691,7 @@ button:hover {
     
     .bottom-left {
         position: relative;
+        display: block;
     }
     
     .bottom-left img {
@@ -643,11 +702,19 @@ button:hover {
     }
     
 }
-@media (min-width: 320px) {
-    
-}
-@media (min-width: 320px) {
-    
+@media (min-width: 1600px) {
+    .top-view, #about, #works {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
+    .middle-right {
+        display: none;
+    }
+
+    .bottom-right img {
+        width: 35%;
+    }
 }
 @media (min-width: 320px) {
     
