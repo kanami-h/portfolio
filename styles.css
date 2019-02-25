@@ -155,6 +155,7 @@ nav {
 
 .l-d {
     width: 35%;
+    max-height: 600px;
 }
 
 .l-d img {
@@ -163,7 +164,6 @@ nav {
 
 .r-d {
     width: 60%;
-    max-height: 600px;
 }
 
 .middle-right {
