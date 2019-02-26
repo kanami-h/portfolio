@@ -71,7 +71,7 @@ nav {
 
 .hero {
     position: relative;
-    top: 60px;
+    margin-top: 60px;
 }
 
 .right-top {
@@ -97,7 +97,7 @@ nav {
 
 .top-view {
     position: relative;
-    top: 150px;
+    top: 50px;
 }
 
 .pic-girl {
@@ -310,7 +310,6 @@ nav {
 
     .top-view {
         flex-direction: column;
-        top: 50px;
     }
     .intro {
         padding: 10px;
@@ -448,10 +447,11 @@ nav {
 
     .navbar {
         display: flex !important;
-    } 
+    }
     
-    .top-view {
-        top: 150px;
+    .sq-item {
+        width: 45%;
+        height: 45%;
     }
 
     #about {
