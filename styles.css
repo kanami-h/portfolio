@@ -276,6 +276,19 @@ nav {
     bottom: 10%;
 }
 
+footer {
+    margin-bottom: 50px;
+    padding: 0 20px;
+}
+
+footer > a {
+    margin: 0 20px;
+}
+
+footer > a:hover {
+    opacity: 0.8;
+}
+
 /* RESPONSIVE */
 @media (min-width: 320px) {
     .navbar {
@@ -369,7 +382,6 @@ nav {
         top: 50px;
         padding-left: 10px;
         padding-right: 10px;
-        margin-bottom: 50px;
     }
 
     #contact p {
@@ -722,6 +734,10 @@ nav {
         margin: 0 auto;
     }
 
+    #about {
+        top: -150px;
+    }
+
     .middle-right {
         display: none;
     }
@@ -738,9 +754,6 @@ nav {
     .l-d img {
         width: 85%;
     }
-}
-@media (min-width: 320px) {
-    
 }
 
 @media all and (-ms-high-contrast:none) {
