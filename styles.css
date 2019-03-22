@@ -4,7 +4,7 @@ body, div, p, h1, h2, h3, h4, h5, ul, img {
     margin: 0;
     padding: 0;
     font-weight: 300;
-    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", Helvetica, sans-serif;
     color: #222222;
 }
 
@@ -38,8 +38,9 @@ nav {
 
 
 .brand {
-    padding: 10px 20px;
-    transition: 0.3s;
+    padding: 15px 26px;
+    transition: ease-in .4s;
+    font-family: Helvetica;
 }
 
 .brand:hover {
@@ -300,7 +301,124 @@ footer > div > a:hover {
     margin: 70px auto;
 }
 
+/* EXCEL */
+.works-top {
+    background-image: url('images/top-excel.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    margin-top: 80px;
+}
 
+.black-effect {
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.w-title {
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.section-title {
+    color: #9F9F9F;
+}
+
+.wrap {
+    max-width: 1150px;
+    margin: 0 auto 50px;
+}
+
+.overview {
+    margin: 50px auto;
+    width: 80%;
+}
+
+.comment {
+    margin: 20px 0 50px 0;
+}
+
+.mockup img {
+    width: 100%;
+    padding: 50px;
+}
+
+.link-border {
+    padding: 20px 40px;
+    border-radius: 50px !important;
+    border: 1px solid #FABB5A;
+    -webkit-transition: ease-in-out .4s;
+    transition: ease-in-out .4s;
+}
+
+.link-border:hover {
+    background: #FABB5A;
+}
+
+.margin-top20 {
+    margin-top: 20px;
+}
+
+.link {
+    display: flex;
+    flex-flow: row wrap;
+    width: 85%;
+    margin: 0 auto;
+    padding: 50px;
+    border: 1px solid #e9ecef;
+    transition: all 1s;
+}
+
+.link:hover{
+    background: #f0f1f3;
+}
+
+.link-img {
+    width: 35%;
+}
+.link-img img {
+    width: 100%;
+}
+
+.link-desc {
+    margin: 10px 20px;
+}
+
+.link-desc p {
+    margin-bottom: .5rem;
+}
+
+.bottom-container {
+    background-color: #ececec;
+}
+
+.bottom {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.contact-link, .next-post{
+    padding: 150px 50px;
+    align-self: center;
+    display: flex;
+    flex-flow: column;
+}
+
+.ninja {
+    font-size: 16px;
+}
+
+.title-p {
+    font-size: 24px;
+    
+}
 
 /* RESPONSIVE */
 @media (min-width: 320px) {
@@ -526,8 +644,8 @@ footer > div > a:hover {
 
     
     .brand {
-        padding: 10px 20px;
-        transition: 0.3s;
+        padding: 15px 26px;
+        transition: ease-in .4s;
     }
     
     .brand:hover {
