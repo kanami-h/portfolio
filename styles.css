@@ -4,7 +4,7 @@ body, div, p, h1, h2, h3, h4, h5, ul, img {
     margin: 0;
     padding: 0;
     font-weight: 300;
-    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", Helvetica, sans-serif;
+    font-family: Helvetica, "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
     color: #222222;
 }
 
