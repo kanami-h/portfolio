@@ -17,6 +17,7 @@
     <meta property="og:site_name" content="Kanami Hidaka PORTFOLIO" />
     <meta property="og:locale" content="ja_JP" />
     <meta property="fb:app_id" content="990590151329522">
+    <script src="https://kit.fontawesome.com/331a3b2308.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Animate.css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
@@ -41,13 +42,18 @@
                 <a href="https://kanami.tech/en/#works" class="link-animation">Works</a>
             </li>
             <li class="nav-item">
-                <a href="#about" class="link-animation">Skills</a>
+                <a href="#skills" class="link-animation">Skills</a>
+            </li>
+            <li class="nav-item">
+                <a href="#about" class="link-animation">About</a>
             </li>
             <li class="nav-item">
                 <a href="https://blog-tomdom.site" target="_blank" class="link-animation">Blog(JP)</a>
             </li>
             <li class="nav-item">
-                <a href="#contact" class="link-animation">Contact</a>
+                <a href="https://kanami.tech/contact" class="link-animation">
+                    <i class="far fa-envelope"></i>
+                </a>
             </li>
             <li class="nav-item">
                 <a href="https://kanami.tech/en/" class="langage en">EN</a>
@@ -77,9 +83,10 @@
             </ul>
         </div>
     </nav>
-    <div class="top animated fadeInLeft slow">
+    <div class="top fadeInLeft slow">
         <div class="first">
             <h1>Hello, I'm Kanami.</h1>
+            <p>Freelance Front-end Developer from Japan.</p>
             <p>Creative, Passionate, Love coding.</p>
             <div class="animated fadeInUp delay-3s down-btn">
                 <a href="#works" class="scrolldown"><span></span>SEE MY WORKS</a>
@@ -149,7 +156,7 @@
                             <p>Frontend / Netlify</p>
                             <p>October 2018, Japan</p>
                         </div>
-                        </div>
+                    </div>
                         <div class="carousel-item">
                             <a href="http://blog-tomdom.site" target="_blank">
                                 <img src="../images/works-tomdom-blog.jpg" alt="Personal Blog">
@@ -181,11 +188,64 @@
                     </a>
                   </div>
     </section>
-
+    <section id="skills">
+        <h2 class="wow fadeInLeft title">What I Can Do</h2>
+        <div class="skill-items">
+            <div class="skill-item col wow fadeInUp slow">
+                <i class="fas fa-palette fa-5x"></i>
+                <h3>Design</h3>
+                <ul class="skill-lists">
+                    <li>Web Design</li>
+                    <li>Mobile & Responsive Design</li>
+                    <li>Adobe XD</li>
+                    <li>Photoshop</li>
+                    <li>Illustrator</li>
+                </ul>
+            </div>
+            <div class="skill-item col wow fadeInUp slow">
+                <i class="fas fa-code fa-5x"></i>
+                <h3>Front-end</h3>
+                <ul class="skill-lists">
+                    <li>JavaScript</li>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Bootstrap4</li>
+                    <li>Sass</li>
+                    <li>WordPress</li>
+                    <li>Netlify</li>                    
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <h2 class="wow fadeInLeft title">About</h2>
+        <div class="wow fadeInUp about-detail">
+            <p>I'm Kanami Hidaka, a Front-end developer from Japan. I've been leaning and creating on the web about a year and a half. I'm super passionate about web development, design and leaning new technologies.
+            </p>
+        </div>
+        
+    </section>
+    <footer>
+        <div class="sns">
+            <a href="https://www.linkedin.com/in/kanami-hidaka-jp/">
+                <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+            <a href="https://twitter.com/kanami_tomdom">
+                <i class="fab fa-twitter-square fa-2x"></i>
+            </a>
+            <a href="https://github.com/kanamitomato">
+                <i class="fab fa-github fa-2x"></i>
+            </a>
+        </div>
+                
+        <p class="copyright">© ️2019 kanami.tech</p>
+    </footer>
     
 </body>
-<script src="main.js"></script>
-<script src="bootstrap.js"></script>
+<script src="../js/main.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script src="../js/wow.js"></script>
+<script type="text/javascript">new WOW().init()</script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
