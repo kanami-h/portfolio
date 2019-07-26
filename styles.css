@@ -367,3 +367,58 @@ footer {
     border: none;
     margin-top: 10px;
 }
+
+/* RESPONSIVE */
+@media (min-width: 320px) {
+    .first h1 {
+        text-align: center;
+    }
+    .top {
+        height: 500px;
+        margin-top: 0;
+    }
+
+    .title {
+        width: 100%;
+        margin: 1.25rem 0;
+        padding-bottom: 15px;
+    }
+
+    .about-detail {
+        width: 90%;
+    }
+
+    .navbar {
+        display: none !important;
+    }
+    .m-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.3s;
+    }
+
+    .nav-item a {
+        padding: 0;
+    }
+
+    .m-nav-bottom {
+        display: block;
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #fff;
+        z-index: 1000;
+    }
+
+    .m-nav-bottom ul {
+        margin-top: 1rem;
+    }
+
+    .m-nav-menu {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
