@@ -351,6 +351,12 @@ footer {
     width: 100%;
 }
 
+.contact-form p > label > input,
+.contact-form p > label > textarea {
+    border: 0.5px solid #ffc107;
+}
+
+
 .contact-form p > label > input {
     padding: 5px;
 }
@@ -359,4 +365,5 @@ footer {
     padding: 7px 45px;
     background-color: #FABB5A;
     border: none;
+    margin-top: 10px;
 }
