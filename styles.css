@@ -369,12 +369,16 @@ footer {
 }
 
 /* RESPONSIVE */
-@media (min-width: 320px) {
+@media (min-width: 320px) and (max-width: 500px) {
     .first h1 {
         text-align: center;
     }
     .top {
         height: 500px;
+        margin-top: 0;
+    }
+
+    .main {
         margin-top: 0;
     }
 
@@ -420,5 +424,13 @@ footer {
         display: flex;
         justify-content: space-around;
         align-items: center;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    footer {
+        padding-bottom: 60px;
     }
 }
